@@ -32,7 +32,7 @@ public class insertMenu extends JFrame  implements ActionListener {
 	        id += '-';
 	        
 	        //4 random int
-	        for(int x=0;x<4;x++) {
+	        for(int x=0;x<3;x++) {
 	            int rand = (int) (Math.random() * 10);
 	            id += rand;
 	        }
